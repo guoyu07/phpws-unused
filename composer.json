@@ -1,0 +1,27 @@
+{
+    "name": "phpws/unused",
+    "description": "Unused core/class files.",
+    "type": "library",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Matthew McNaney",
+            "email": "mcnaney@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories" : [
+	{
+	    "type":"vcs",
+	    "url": "https://github.com/AppStateESS/phpws-unused"
+	}
+    ],
+    "require": {
+	"phpws/unused":"dev-master"
+    },
+    "autoload": {
+	"psr-4" : {
+	    "phpws\\unused" : "src"
+	}
+    }
+}
