@@ -16,9 +16,6 @@
 	    "url": "https://github.com/AppStateESS/phpws-unused"
 	}
     ],
-    "require": {
-	"phpws/unused":"dev-master"
-    },
     "autoload": {
 	"psr-4" : {
 	    "phpws\\core\\unused\\" : "src"
